@@ -1,0 +1,39 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath "com.github.rising3:semver-gradle-plugin:0.4.0"
+    }
+}
+
+plugins {
+	id "java"
+}
+
+apply plugin: "com.github.rising3.semver"
+
+group = "com.github.rising3"
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+repositories {
+    mavenLocal()
+}
+
+semver {
+    target="tag"
+}
+
+tasks.semver.configure {
+    doFirst {
+        println "doFirst preversion: $project.version"
+    }
+    doLast {
+        println "doLast postversion: $project.version"
+    }
+}
+
