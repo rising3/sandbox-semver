@@ -26,7 +26,7 @@ repositories {
 
 semver {
     target="tag"
-    changelog="both"
+    changeLog="both"
 }
 
 tasks.semver.configure {
