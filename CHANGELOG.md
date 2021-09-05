@@ -1,3 +1,11 @@
+# v2.1.5 (2021-09-05)
+
+## Bug Fixes
+* **fix:** fix (e9c0135d2946b7823b6fccae52040dca4b896594)
+
+## Build Improvements
+* **build(gradle):** update plugin (73651685ba140b98beced4125718ab665db37e9f)
+
 # v2.1.2 (2021-09-04)
 
 ## Bug Fixes
