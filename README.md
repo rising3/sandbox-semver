@@ -6,3 +6,4 @@ An sample repository for semver-gradle-plugin.
 * a
 * b
 * b
+* b
