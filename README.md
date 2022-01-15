@@ -8,3 +8,4 @@ An sample repository for semver-gradle-plugin.
 * b
 * b
 * b
+* b
