@@ -3,7 +3,7 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath "com.github.rising3:semver-gradle-plugin:0.7.1"
+        classpath "com.github.rising3:semver-gradle-plugin:0.8.0"
     }
 }
 
